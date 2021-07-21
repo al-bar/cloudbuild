@@ -3,4 +3,4 @@ steps:
   args: ['install']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '--tag=europe-west4-docker.pkg.dev/$PROJECT_ID/test-tenant-1-docker/spring-boot', '.']
-images: ['europe-west4-docker.pkg.dev/$PROJECT_ID/tee-docker-registry/spring-boot']
+images: ['europe-west4-docker.pkg.dev/$PROJECT_ID/test-tenant-1-docker/spring-boot']
